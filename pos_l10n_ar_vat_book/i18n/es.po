@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_l10n_ar_vat_book
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e-20191112\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-01 22:17+0000\n"
+"PO-Revision-Date: 2020-10-01 17:22-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#. module: pos_l10n_ar_vat_book
+#: model_terms:ir.ui.view,arch_db:pos_l10n_ar_vat_book.ar_vat_book_pos_config_inherit
+msgid "Auto invoices, journal with documents"
+msgstr "Facturas automáticas, diario con documentos"
+
+#. module: pos_l10n_ar_vat_book
+#: model:ir.model.fields,field_description:pos_l10n_ar_vat_book.field_pos_config__invisible_button_invoice
+msgid "Invisible button invoice"
+msgstr "Invisible impresión factura"
+
+#. module: pos_l10n_ar_vat_book
+#: model:ir.model.fields,field_description:pos_l10n_ar_vat_book.field_pos_config__invoice_background
+msgid "Invoice background?"
+msgstr "Facturas Segundo Plano?"
+
+#. module: pos_l10n_ar_vat_book
+#: model:ir.model.fields,field_description:pos_l10n_ar_vat_book.field_pos_config__journal_used_documents
+msgid "Journal used documents?"
+msgstr "Diario usa documentos?"
+
+#. module: pos_l10n_ar_vat_book
+#: model:ir.model.fields,field_description:pos_l10n_ar_vat_book.field_pos_config__partner_default
+msgid "Partner default"
+msgstr "Cliente por Defecto"
+
+#. module: pos_l10n_ar_vat_book
+#: model:ir.model,name:pos_l10n_ar_vat_book.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr ""
+
+#. module: pos_l10n_ar_vat_book
+#: model:ir.model,name:pos_l10n_ar_vat_book.model_pos_order
+msgid "Point of Sale Orders"
+msgstr ""
