@@ -19,10 +19,11 @@
 {
 	'name': 'Pos Argentina vat book',
 	'summary': 'Creation of invoices in the background from the POS, which uses a journal that has documents assigned',
-	'version': '14.0.2',
-	'author': "Juan Manuel De Castro Pronexom",
+	'version': '14.0.3',
+	'author': 'Pronexo',
+    	'maintainer': 'Pronexo',
 	'license': "AGPL-3",
-	'maintainer': 'Pronexo',
+	'maintainer': 'Juan Manuel De Castro Pronexo',
 	'category': 'sale',
 	'website': 'https://www.pronexo.com',
 	'depends': [
