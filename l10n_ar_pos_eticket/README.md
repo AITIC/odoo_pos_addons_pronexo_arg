@@ -30,9 +30,13 @@ Cuando se genere el ticket/factura, se mostrarán todos los datos necesarios seg
 
 Créditos
 ========
+* Ariel Aranda <pushnube@gmail.com>
+* Gabriela Rivero <regaby@gmail.com>
 
-Autor
-~~~~~~~
-
+Contribuidores
+Ariel Aranda pushnube@gmail.com
+Gabriela Rivero regaby@gmail.com
+Mario Nuñez marionumza@gmail.com
+Lucas L. Soto
 * Juan Manuel De Castro <jm@pronexo.com>
 
