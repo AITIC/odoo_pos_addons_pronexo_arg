@@ -15,6 +15,10 @@ Configuration
 =============
 * No additional configurations needed
 
+Créditos
+========
+Desde Odoo 9 la Ing. Gabriela Rivero mantiene y colabora con el POS de Odoo. 
+
 Company
 -------
 * `Pronexo <https://pronexo.com/>`__
