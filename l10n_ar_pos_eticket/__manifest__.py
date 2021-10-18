@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
     "name": "POS eticket",
-    "version": "14.0.1.0.0",
-    "author": "Juan Manuel De Castro Pronexo.com",
+    "version": "14.0.1.0.1",
+    "author": "Gabriela Rivero, Pronexo",
     "license": "LGPL-3",
     "sequence": 14,
     "category": "Point Of Sale",
