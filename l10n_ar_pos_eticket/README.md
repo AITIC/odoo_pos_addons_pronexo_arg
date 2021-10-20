@@ -30,6 +30,7 @@ Cuando se genere el ticket/factura, se mostrarán todos los datos necesarios seg
 
 Créditos
 ========
+Hasta Odoo V13
 * Ariel Aranda <pushnube@gmail.com>
 * Gabriela Rivero <regaby@gmail.com>
 
@@ -38,5 +39,8 @@ Ariel Aranda pushnube@gmail.com
 Gabriela Rivero regaby@gmail.com
 Mario Nuñez marionumza@gmail.com
 Lucas L. Soto
+
+Odoo 14
 * Juan Manuel De Castro <jm@pronexo.com>
 
+Nota: Para Odoo 14 este módulo se realizo desde 0 por Pronexo pero se mantiene créditos de autores sobre versiones anteriores por convención de software libre.
