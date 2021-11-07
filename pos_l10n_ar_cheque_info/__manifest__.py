@@ -12,7 +12,7 @@
      """,
     "license" : "OPL-1",
     "website": "https://www.pronexo.com",
-    "depends" : ['base','point_of_sale','l10n_ar_bank'],
+    "depends" : ['base','point_of_sale'],
     "data": [
         'views/assets.xml',
         'views/pos_config.xml',
