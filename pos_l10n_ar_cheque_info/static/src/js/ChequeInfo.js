@@ -20,27 +20,89 @@ odoo.define('pos_l10n_ar_cheque_info.ChequeInfo', function(require) {
 			this.inputaccountRef = useRef('input-account');
 			this.inputnumberRef = useRef('input-number');
 			this.inputcheck_issue_date = useRef('input-checkissuedate');
+
 			
 		}
 		mounted() {
             this.inputNameRef.el.focus();
+            
+            //cuando cambia de valor el select del banco y se selecciona cambia el background
+            $('.select_bank_id').on('change', function() {
+  			$('.select_bank_id').css({
+					"background-color" : '#FFFFFF'
+				});
+			});
+
+
+
+            $('.select_issue_date').on('change', function() {
+  			$('.select_issue_date').css({
+					"background-color" : '#FFFFFF'
+				});
+			});
+
+			
         }
+
+
+
+
 
         getValue() {
         	var order = this.env.pos.get_order()
         	var banco =$('.select_bank_id').val();
         	if(banco==null){
-        		alert("Complete Banco");
+        		alert("Seleccione el Banco!");
+        		$('.select_bank_id').css({
+					"background-color" : 'rgb(255 0 128 / 24%)'
+				});
         		return false;
-        	}else if(this.inputNameRef.el.value==""){
-        		alert("Complete Nombre del propietario del Cheque");
+        	}else{
+        		$('.select_bank_id').css({
+					"background-color" : '#FFFFFF'
+				});
+        	}
+
+
+
+        	if(this.inputNameRef.el.value==""){
+        		alert("Complete Nombre del propietario del Cheque!");
+        		$('.input-name-owner').css({
+					"background-color" : 'rgb(255 0 128 / 24%)'
+				});
         		return false;
-        	}else if(this.inputnumberRef.el.value==""){
-        		alert("Complete Número de Cheque");
+        	}else{
+        		$('.input-name-owner').css({
+					"background-color" : '#FFFFFF'
+				});
+        	}
+
+
+
+        	if(this.inputnumberRef.el.value==""){
+        		alert("Complete Número de Cheque!");
+        		$('.input-check-number').css({
+					"background-color" : 'rgb(255 0 128 / 24%)'
+				});
         		return false;
-        	}else if(this.inputcheck_issue_date.el.value==""){
-        		alert("Complete Fecha de Pago del Cheque");
+        	}else
+        	{
+        		$('.input-check-number').css({
+					"background-color" : '#FFFFFF'
+				});
+        	}
+
+        	 if(this.inputcheck_issue_date.el.value==""){
+        		alert("Complete Fecha de Pago del Cheque!");
+        		$('.select_issue_date').css({
+					"background-color" : 'rgb(255 0 128 / 24%)'
+				});
         		return false;
+        	}else
+        	{
+        		$('.select_issue_date').css({
+					"background-color" : '#FFFFFF'
+				});
         	}
 
         	
@@ -76,6 +138,10 @@ odoo.define('pos_l10n_ar_cheque_info.ChequeInfo', function(require) {
         
         	
         }
+
+
+
+
 	}
 
 	ChequeInfoPopup.template = 'ChequeInfoPopup';

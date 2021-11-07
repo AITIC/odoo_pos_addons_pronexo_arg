@@ -143,6 +143,10 @@ odoo.define('pos_chque_information.pos', function(require) {
 
 				}
 
+
+
+
+
 			// console.log('add_paymentline');
 			var newPaymentline = posorder_super.add_paymentline.apply(this, arguments);
 			
