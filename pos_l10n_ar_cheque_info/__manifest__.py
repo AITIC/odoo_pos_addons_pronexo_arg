@@ -5,7 +5,7 @@
     "author": "Pronexo",
     "version" : "15.0.1.0",
     "live_test_url":'#',
-    "images":["static/images/cheque_info_home.png"],
+    "images":["static/description/images/cheque_info_home.png"],
     'summary': 'POS, cuando realiza el pago con cheque se le solicita información. Módulo para el punto de venta. Guarda detalles des cheque. POS Check l10n_ar',
     "description": """ Este múdulo se utiliza para imprimir información del cheque en el ticket.
 
