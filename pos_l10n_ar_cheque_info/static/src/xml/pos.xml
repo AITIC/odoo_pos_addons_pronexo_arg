@@ -29,9 +29,9 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>Nombre del Banco</td>
+									<td style="text-align:left; padding-left:20px;">Nombre del Banco</td>
 									<td style="padding: 3px;">
-										<select class="select_bank_id" name='select_bank' style="height: 40px; margin-top: 30px;width: 162px;">
+										<select class="select_bank_id" name='select_bank' style="height: 40px; margin-top: 30px;width: 212px;">
 											<option disabled="1" selected="1" value="">Seleccionar...</option>
 											<t t-foreach="props.list" t-as="bank" t-key="bank.id">
 												<option t-att-value='bank.id' t-att-class="{selected: bank.isSelected}" t-ref="input-selected" t-on-click="selectItem(bank.id)"> 
@@ -42,29 +42,29 @@
 									</td>	
 								</tr>
 								<tr class="owner_name">
-									<td>Nombre del dueño</td>
+									<td style="text-align:left;padding-left:20px;">Nombre propietario</td>
 									<td class="" style="padding: 3px;">
-										<input id ="entered_owner_name" type="text" class="input-field" t-ref="input-name" name="code"></input>
+										<input style="width: 212px;" id ="entered_owner_name" type="text" class="input-field" t-ref="input-name" name="code"></input>
 									</td>	
 								</tr>
 								<tr class="bank_account">
-									<td>Nº Cuenta bancaria</td>
+									<td style="text-align:left;padding-left:20px;">Nº Cuenta bancaria</td>
 									<td class="entered_item_qty" style="    padding: 3px;">
-										<input id ="entered_back_account" type="text" t-ref="input-account" class="input-field" name="code"></input>
+										<input style="width: 212px;" id ="entered_back_account" type="text" t-ref="input-account" class="input-field" name="code"></input>
 									</td>	
 								</tr>
 								<tr class="check_number">
-									<td>Número de Cheque</td>
+									<td style="text-align:left;padding-left:20px;">Número de Cheque</td>
 									<td class="entered_item_qty" style="    padding: 3px;">
-										<input id ="entered_check_number" type="number" t-ref="input-number" class="input-field" name="code"></input>
+										<input style="width: 212px;" id ="entered_check_number" type="number" t-ref="input-number" class="input-field" name="code"></input>
 									</td>	
 								</tr>
 
 								<tr class="check_issue_date">
-									<td>Fecha de Cobro</td>
+									<td style="text-align:left;padding-left:20px;">Fecha de Cobro</td>
 									<td class="entered_item_qty" style="    padding: 3px;">
 									
-										<input id ="entered_check_issue_date" type="date" t-ref="input-checkissuedate" class="input-field select_issue_date" name="code"></input>
+										<input style="width: 212px;" id ="entered_check_issue_date" type="date" t-ref="input-checkissuedate" class="input-field select_issue_date" name="code"></input>
 
 
 									</td>	
