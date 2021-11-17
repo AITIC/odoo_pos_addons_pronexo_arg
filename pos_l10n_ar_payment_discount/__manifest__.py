@@ -15,7 +15,7 @@
         Establecer el valor de descuento en la configuración del método de pago.
         En la pantalla de pago POS, puede aplicar el mismo descuento haciendo clic en algún método de pago en particular.
     """,
-    'price': 55.00,
+    'price': 35.00,
     'currency': 'USD',
     'category': 'Sales/Point of Sale',
 
