@@ -24,7 +24,7 @@ Luego de realizar un primer ticket podrá establecer cliente por defecto
 
 Créditos
 ========
-Odoo V13
+Odoo 13
 * Ariel Aranda <pushnube@gmail.com>
 * Gabriela Rivero <regaby@gmail.com>
 
